@@ -1,1 +1,1 @@
-# HTMl and CSS3 Pratice
+# HTMl and CSS3 Practice
