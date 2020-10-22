@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>위치 키워드를 사용해 선형 그라데이션 만들기</title>
+		<style>
+			div {
+				width:500px;
+				height:300px;
+				border-radius:10px;
+			}
+			.grad {
+				background: blue;
+				background: -webkit-linear-gradient(left top, blue, white);/*초기 모던 브라우저*/
+				background: -moz-linear-gradient(right bottom, blue, white);/*초기 모던 브라우저*/
+				background: -o-linear-gradient(right bottom, blue, white); /*초기 모던 브라우저*/
+				background: linear-gradient(to right bottom, blue, white);/*초기 모던 브라우저*/
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="grad">
+			
+		</div>
+	</body>
+</html>
