@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>위치 키워드를 사용해 원형 그라데이션 만들기</title>
+		<style>
+			div{
+				width:500px;
+				height:300px;
+				border-radius:10px;
+			}
+			.grad{
+				background:blue;
+				background:-webkit-radial-gradient(10% 10%, circle, white, blue);
+				background:-moz-radial-gradient(10% 10%, circle, white, blue);
+				background:-o-radial-gradient(10% 10%, circle, white, blue);
+				background:radial-gradient(circle at 10% 10%, white, blue);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grad">
+		</div>
+	</body>
+</html>
+
+<!--출처 Do it Html5+CSS3 웹표준의 정석-->
