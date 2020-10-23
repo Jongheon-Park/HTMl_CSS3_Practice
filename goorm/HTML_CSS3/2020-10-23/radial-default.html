@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>원형 그라데이션 모양 살펴보기</title>
+		<style>
+			div {
+				width:500px;
+				height:300px;
+				border-radius:10px;
+			}
+			.grad1{
+				background:red;
+				background:-webkit-radial-gradient(white, yellow, red);
+				background:-moz-radial-gradient(white, yellow, red);
+				background:-o-radial-gradient(white, yellow, red);
+				background:radial-gradient(white, yellow, red);
+			}
+			.grad2{
+				background:red;
+				background:-webkit-radial-gradient(white, yellow, red);
+				background:-moz-radial-gradient(white, yellow, red);
+				background:-o-radial-gradient(white, yellow, red);
+				background:radial-gradient(circle, white, yellow, red);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grad1">
+		</div>
+		<br>
+		<div class="grad2">
+			
+		</div>
+	</body>
+</html>
