@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			div{
+				width:500px;
+				height:300px;
+				border-radius:10px;
+			}
+			.grad2{
+				background:red;
+				background:-webkit-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+				background:-moz-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+				background:-o-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+				background:repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+			}
+			
+			.grad3{
+				background:blue;
+				background:-webkit-repeating-radial-gradient(yellowgreen, yellowgreen 20px, blue 20px, blue 40px);
+				background:-moz-repeating-radial-gradient(yellowgreen, yellowgreen 20px, blue 20px, blue 40px);
+				background:-o-repeating-radial-gradient(yellowgreen, yellowgreen 20px, blue 20px, blue 40px);
+				background:repeating-radial-gradient(yellowgreen, yellowgreen 20px, blue 20px, blue 40px);
+			}
+			
+			.grad4{
+				background:#ccc;
+				background:-webkit-repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+				background:-moz-repeating-radial-gradient(white, white 10%, #ccc 10%, #ccc 20%);
+				background:-o-repeating-radial-gradient()
+				background:repeating-radial-gradient(circle, white, white 10%, #ccc 10%, #ccc 20%);
+			}
+			
+			.grad5{
+				background:#ccc;
+				background:-webkit-repeating-radial-gradient(circle, white, #ccc 10%);
+				background:-moz-repeating-radial-gradient(circle,white, #ccc 10%);
+				background:-o-repeating-radial-gradient(circle, white, #ccc 10%);
+				background:repeating-radial-gradient(circle, white, #ccc 10%);
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="grad2">
+		</div>
+		<br>
+		<div class="grad3">
+		</div>
+		<br>
+		<div class="grad4">
+		</div>
+		<br>
+		<div class="grad5">
+		</div>
+	</body>
+</html>
+
+<!--출처 Do it Html5+CSS3 웹표준의 정석-->
